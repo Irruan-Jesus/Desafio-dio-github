@@ -1,0 +1,339 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    padding:100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ecf0f3;
+    gap:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+}
+
+.imagem{
+width:250px;
+height:250px;
+background-image: url("./a04efj8v.bmp");
+background-position: center;
+background-repeat: no-repeat;
+background-size:contain;
+margin: auto;
+border-radius: 50%;
+box-sizing: border-box;
+box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+form{
+    width:900px;
+    height:1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:40px;
+    border-radius: 20px;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+fieldset{
+border: none;
+width:805px;
+border-radius:10px;
+box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+label{
+    margin-bottom:10px;
+}
+.container1{
+    width:800px;
+    height:330px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container1-grup1{
+    width:400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:100px;
+    height:250px;
+}
+/*elmentos do grupo 1*/
+#inome{
+    width:200px;
+    margin-bottom:20px;
+    height:30px;
+    padding:10px;
+    font-size: 16px;
+    border:none;
+    border-radius:2px;
+    box-shadow: inset 6px 6px 6px #cbced1,  inset -6px -6px 6px white;
+}
+
+#icpf{
+ width:120px;
+ margin-bottom:20px;
+ height:30px;
+ padding:5px;
+ font-size: 16px;
+ border:none;
+ border-radius:2px;
+ box-shadow: inset 6px 6px 6px #cbced1,  inset -6px -6px 6px white;
+}
+#iestado-civil{
+width:125px;
+text-align: center;
+padding:8px;
+height:30px;
+font-size: 16px;
+border:none;
+border-radius:2px;
+box-shadow: inset 6px 6px 6px #cbced1,  inset -6px -6px 6px white;
+}
+
+.container1-grup2{
+    width:400px;
+    height:250px;
+    display: flex;
+    flex-direction: column;
+    padding-left:100px;
+   justify-content: center;
+}
+
+/*elementos do grupo 2*/
+#idata{
+    width:150px;
+    text-align: center;
+    height:30px;
+    font-size: 16px;
+    border:none;
+    padding:8px;
+    border-radius:2px;
+    box-shadow: inset 6px 6px 6px #cbced1,  inset -6px -6px 6px white;
+    margin-bottom:75px;
+}
+
+#imasculino{
+    width:20px;
+    height:20px;
+}
+
+#ifeminino{
+    width:20px;
+    height:20px;
+}
+.container1-grup3{
+    width:800px;
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+/*elementos grupo 3*/
+#ilogin{
+    margin-left:10px;
+    font-size:16px;
+    border:none;
+    padding:8px;
+    border-radius:2px;
+    box-shadow: inset 6px 6px 6px #cbced1,  inset -6px -6px 6px white;
+
+}
+#isenha{
+    margin-left:10px;
+    font-size:16px;
+    border:none;
+    padding:8px;
+    border-radius:2px;
+    box-shadow: inset 6px 6px 6px #cbced1,  inset -6px -6px 6px white;
+}
+
+
+/*FILDSET 2*/
+.container2{
+    width:800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container2-grup1{
+    display:flex;
+    flex-direction:column;
+    width:400px;
+    justify-content: center;
+    padding-left:100px;
+    height:200px;
+    
+}
+
+/*elementos grupo 1*/
+
+#iemail{
+    width:200px;
+    font-size: 16px;
+    border:none;
+    padding:8px;
+    border-radius:2px;
+    box-shadow: inset 6px 6px 6px #cbced1,  inset -6px -6px 6px white;
+    margin-bottom:20px;
+}
+
+#iwebsite{
+    width:200px;
+    font-size: 16px;
+    border:none;
+    padding:8px;
+    border-radius:2px;
+    box-shadow: inset 6px 6px 6px #cbced1,  inset -6px -6px 6px white;
+    margin-bottom:20px;
+}
+.container2-grup2{
+    display:flex;
+    flex-direction:column;
+    width:400px;
+    justify-content: center;
+    padding-left:100px;
+    height:200px;
+}
+
+/*elementos grupo 2*/
+
+#icelular{
+    width:180px;
+    font-size: 16px;
+    border:none;
+    padding:8px;
+    border-radius:2px;
+    box-shadow: inset 6px 6px 6px #cbced1,  inset -6px -6px 6px white;
+    margin-bottom:20px;
+}
+
+#itelefone{
+    width:180px;
+    font-size: 16px;
+    border:none;
+    padding:8px;
+    border-radius:2px;
+    box-shadow: inset 6px 6px 6px #cbced1,  inset -6px -6px 6px white;
+    margin-bottom:20px;
+}
+
+.container2-grup3{
+    width:800px;
+    display:flex;
+    flex-wrap: wrap;
+    height:200px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/*elementos do grupo 3*/
+#iendereco{
+    width:200px;
+    margin-left:10px;
+    font-size: 16px;
+    border:none;
+    padding:8px;
+    border-radius:2px;
+    box-shadow: inset 6px 6px 6px #cbced1,  inset -6px -6px 6px white;
+}
+
+#ibairro{
+    width:200px;
+    margin-left:10px;
+    font-size: 16px;
+    border:none;
+    padding:8px;
+    border-radius:2px;
+    box-shadow: inset 6px 6px 6px #cbced1,  inset -6px -6px 6px white;
+}
+
+#icep{
+    width:150px;
+    margin-left:10px;
+    font-size: 16px;
+    border:none;
+    padding:8px;
+    border-radius:2px;
+    box-shadow: inset 6px 6px 6px #cbced1,  inset -6px -6px 6px white;
+}
+
+#icidade{
+    width:150px;
+    margin-left:10px;
+    font-size: 16px;
+    border:none;
+    padding:8px;
+    border-radius:2px;
+    box-shadow: inset 6px 6px 6px #cbced1,  inset -6px -6px 6px white;
+}
+
+#iuf{
+    width:150px;
+    margin-left:10px;
+    font-size: 16px;
+    border:none;
+    padding:8px;
+    border-radius:2px;
+    box-shadow: inset 6px 6px 6px #cbced1,  inset -6px -6px 6px white;
+}
+
+
+.container2-grup3>label{
+    margin:0 10px;
+}
+
+.container3{
+ width:800px;
+ height:310px;
+ padding:20px;
+}
+
+
+.check{
+    margin:20px;
+    width:700px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+  margin: 0 0 8px 0;  
+}
+
+li>input{
+    margin-right:10px;
+    width:20px;
+    height:20px;
+}
+
+ .botoes{
+    width:800px;
+    height:80px;
+    display: flex;
+    align-items: center;
+    gap:50px;
+    justify-content:center;
+    padding-bottom:30px;
+ }
+.botoes>input{
+  color: white;
+  
+  background: #1DA1F2;
+  height:45px;
+  width:200px;
+  font-size:18px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+}
